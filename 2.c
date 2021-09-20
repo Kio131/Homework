@@ -18,7 +18,7 @@ int main(void) {
         printf("%c", name[i]);
         i++;
     }
-    printf("\n");
+    printf("!\n");
 
     return 0;
 }
