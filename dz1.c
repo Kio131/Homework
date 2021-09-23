@@ -20,6 +20,7 @@ int convert_2_10(int a[32]) {
     double j = 0;
     while(i >= 0) {
         if (a[i] != 2) {
+            
             num += a[i] * pow(2.0, j++);
         }
         i--;
