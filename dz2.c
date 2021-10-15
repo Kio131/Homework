@@ -199,7 +199,7 @@ void print_file(FILE* ft, int* bond, unsigned count_line, unsigned count_column)
     }
     for (i = 0; i < count_line; i++) {
         count_link = 0;
-        for (j = 1; j < count_column; j++) {
+        for (j = 0; j < count_column; j++) {
             if (bond[i * count_column + j]) {
                 ++count_link;
             }
